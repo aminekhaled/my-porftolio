@@ -2,7 +2,11 @@
 
 var myHeader = document.getElementsByTagName('header')[0],
    pre_img = document.getElementById('pre-img'),
-   myScrollTop = 0;
+   myScrollTop = 0,
+   Down = document.getElementsByClassName('down')[0],
+   Brithness_btn = document.getElementsByClassName('brithness')[0];
+
+
 
    
 if(myScrollTop < 500) {
@@ -25,5 +29,12 @@ onscroll = function() {
       myHeader.classList.remove('header-on-scroll');
       myHeader.classList.add('header');
    }
-   myScrollTop = document.documentElement.scrollTop;
 }
+
+/*
+Down.onclick = function () {
+   document.documentElement.scrollTop = 700;
+}
+Brithness_btn.onclick = function () {
+   document.body.style.backgroundColor = 'black';
+}*/

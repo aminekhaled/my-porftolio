@@ -3,6 +3,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+html {
+   scroll-behavior: smooth;
+}
 body {
    background-color: #f5f5f5;
    height: 200vh;
@@ -11,10 +14,9 @@ body {
    width: 78.5937%;   
    margin: auto;
 }
-.home {
+#home {
    width: 100%;
    height: 100vh;
-   margin-bottom: 60px;
 }
 header { transition: 0.4s; z-index: 1}
 .header {
@@ -129,12 +131,11 @@ span {
    color: #fff;
    width: 30px;
 }
-.my-work-section {
+#my-work-section {
    height: 462px;
    text-align: center;
-   margin-bottom: 90px;
 }
-.my-work-section .container {
+#my-work-section .container {
    height: 100%;
 }
 .heading {
@@ -203,14 +204,13 @@ span {
 
 #about-me-section{
    height: 450px;
-   margin-bottom: 200px;
 }
 .about-me-content {
    height: 330px;
 }
 .about-me-text {
    float: left;
-   padding: 55px 0;
+   padding: 33px 0;
    line-height: 2;
 }
 .about-me-text p {
@@ -219,8 +219,8 @@ span {
 }
 .personal-img {
    float: right;
-   width: 282px;
-   height: 299px;
+   width: 272px;
+   height: 267px;
    border-radius: 50%;
    overflow: hidden;
    margin: 15px 0;
@@ -232,11 +232,10 @@ span {
    clear: both;
 }
 
-.contact-me-section {
+#contact-me-section {
    height: 350px;
-   margin-bottom: 120px;
 }
-.contact-accounts {
+#contact-accounts {
    height: 228px;
    text-align: center;
 }
@@ -245,6 +244,7 @@ span {
    font-size: 30px;
    font-family: nexa;
    padding: 0 0 35px 0;
+   text-align: center;
 }
 
 .social-media-icons {
@@ -285,6 +285,10 @@ footer p {
    font-family: jost;
 }
 
+section {
+   margin-bottom: 100px;
+   padding-top: 60px;
+}
 
 
 
