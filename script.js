@@ -31,10 +31,10 @@ onscroll = function() {
    }
 }
 
-/*
 Down.onclick = function () {
    document.documentElement.scrollTop = 700;
 }
+/*
 Brithness_btn.onclick = function () {
    document.body.style.backgroundColor = 'black';
 }*/
