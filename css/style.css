@@ -152,7 +152,7 @@ span {
 .small-line {
    width: 40px;
    height: 5px;
-   background-color: #1e8361;
+   background-color: #1DC48B;
    border-radius: 5px;
    margin: auto;
 }
@@ -241,7 +241,7 @@ span {
 }
 
 .contact-accounts p {
-   font-size: 30px;
+   font-size: 25px;
    font-family: nexa;
    padding: 0 0 35px 0;
    text-align: center;
@@ -256,8 +256,8 @@ span {
 .social-media-icons i {
    margin: 0 15px;
 }
-.social-media-icons i svg {
-   width: 35px;
+.social-media-icons a i svg {
+   width: 28px;
    color: red;
    transition: opacity .3s;
 }.social-media-icons i svg:hover {
@@ -276,12 +276,12 @@ footer {
    height: 80px;
    background-color: #1DC48B;
    text-align: center;
-   padding-top: 24px;
+   padding-top: 25px;
 }
 
 footer p {
    color: #fff;
-   font-size: 25px;
+   font-size: 22px;
    font-family: jost;
 }
 
