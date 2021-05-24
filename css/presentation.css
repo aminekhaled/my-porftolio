@@ -1,0 +1,50 @@
+.presentation {
+   width: 78%;
+   position: relative;
+   top: 55%;
+   left: 50%;
+   transform: translate(-50%, -50%);   
+}
+.pre-top {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 450px;
+}
+.presentation-text p {
+   font-size: 42px;
+   font-family: jost;
+   font-weight: bold;
+   line-height: 1.8;
+}
+.presentation-img {
+   width: auto;
+}
+span {
+   color: #1DC48B 
+}
+.scroll-down {
+   padding: 20px 0;
+}
+.scroll-down .icon {
+   width: 60px;
+   height: 60px;
+   background-color: #1DC48B;
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 50%;
+   line-height: 5.35;
+   transition: transform 0.4s;
+}.scroll-down .icon:hover {
+   background-color: #1e8361;
+   transform: translateY(6px);
+}
+
+#pre-img {
+   transition: 2.5s;
+}
+
+.scroll-down .icon svg {
+   color: #fff;
+   width: 30px;
+}

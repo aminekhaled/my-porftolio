@@ -1,0 +1,44 @@
+#contact-me-section {
+   height: 350px;
+}
+#contact-accounts {
+   height: 228px;
+   text-align: center;
+}
+
+.contact-accounts p {
+   font-size: 25px;
+   font-family: nexa;
+   padding: 0 0 35px 0;
+   text-align: center;
+}
+
+.social-media-icons {
+   width: 24%;
+   margin: auto;
+   display: flex;
+   align-items: center;
+}
+.social-media-icons i {
+   margin: 0 15px;
+}
+.social-media-icons a i svg {
+   width: 28px;
+   color: red;
+   transition: opacity .3s;
+}.social-media-icons i svg:hover {
+   opacity: 82%;
+}
+
+.social-media-icons i:nth-child(2) svg {
+   width: 32px;
+}
+.social-media-icons i:nth-child(4) svg {
+   width: 36px;
+}
+
+
+section {
+   margin-bottom: 100px;
+   padding-top: 60px;
+}

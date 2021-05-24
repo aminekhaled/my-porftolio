@@ -1,0 +1,29 @@
+#about-me-section{
+   height: 450px;
+}
+.about-me-content {
+   height: 330px;
+}
+.about-me-text {
+   float: left;
+   padding: 33px 0;
+   line-height: 2;
+}
+.about-me-text p {
+   font-family: jost;
+   font-size: 28px;
+}
+.personal-img {
+   float: right;
+   width: 272px;
+   height: 267px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin: 15px 0;
+}
+.personal-img img {
+   background-size: cover;
+}
+.clear {
+   clear: both;
+}
