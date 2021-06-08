@@ -15,9 +15,9 @@
 
 .social-media-icons {
    width: 24%;
-   margin: auto;
    display: flex;
    align-items: center;
+   margin: auto;
 }
 .social-media-icons i {
    margin: 0 15px;

@@ -1,15 +1,19 @@
 .presentation {
    width: 78%;
+   max-width: 1100px;
    position: relative;
    top: 55%;
    left: 50%;
-   transform: translate(-50%, -50%);   
+   transform: translate(-50%, -50%);
 }
 .pre-top {
    display: flex;
    align-items: center;
    justify-content: space-between;
    height: 450px;
+}
+.presentation-text {
+   width: 40%;
 }
 .presentation-text p {
    font-size: 42px;
@@ -33,18 +37,17 @@ span {
    margin: 0 auto;
    text-align: center;
    border-radius: 50%;
-   line-height: 5.35;
+   line-height: 5;
    transition: transform 0.4s;
 }.scroll-down .icon:hover {
    background-color: #1e8361;
-   transform: translateY(6px);
+   transform: translateY(4px);
 }
-
+.down i {
+   font-size: 35px;
+   color: #fff;
+}
 #pre-img {
    transition: 2.5s;
 }
 
-.scroll-down .icon svg {
-   color: #fff;
-   width: 30px;
-}

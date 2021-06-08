@@ -4,22 +4,244 @@
 @import url("my-work.css");
 @import url("about-me.css");
 @import url("contact.css");
+@import url("reponsive.css");
 * {   margin: 0;  padding: 0; box-sizing: border-box  }
-
 html {   scroll-behavior: smooth  }
-
+.container {  width: 78.5937%; max-width: 1200px;min-width: 305px;  margin: auto  }
 body {   background-color: #f5f5f5;height: 200vh  }
-
-.container {  width: 78.5937%;   margin: auto  }
-
 #home {  width: 100%;height: 100vh  }
-
+header { transition: 0.4s; z-index: 1}
 .flex-view {
    height: 100%;
    display: flex;
    align-items: flex-end;
    justify-content: space-between;
 }
+i {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1330px)  {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1150px)  {
+
+  /*--   Header   --*/
+  .logo {
+    font-size: 26px;
+    padding-bottom: 3px;
+ }
+
+  .nav {
+  width: 320px;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  display: none;
+  }
+  .nav ul{
+  list-style: none;
+  height: 100%;
+  background-color: #fff;
+}
+.nav ul li {
+  display: block;
+  text-align: center;
+  }
+  .nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  font-family: nexa;
+  font-size: 15px;
+  padding: 20px 0;
+  transition: 0.2s;
+  }
+  .nav ul li a:hover {
+  background-color: #1DC48B;
+  color: #fff;
+  }
+  .nav ul li:nth-child(4) a {  padding-right: 0px;  }
+  .more-options {
+  width: 85px;
+  height: 39px;
+  display: none;
+  }
+  .more-options .icon {
+  display: inline-block;
+  padding: 12px 13px;
+  }
+  .more-options .icon:nth-child(2) {
+  padding-right: 0;
+  }
+  .show-nav-bar {
+  display: unset;
+  width: 25px;
+  height: 25px;
+  padding: 35px 0;
+  }
+
+  .show-nav-bar i {
+    font-size: 25px;
+    padding-top: 3px;
+  }
+
+  .hide-nav-bar {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #00000086;
+    position: absolute;
+    top: 10%;
+    right: 30.2%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.8;
+    display: none;
+  }  .hide-nav-bar:hover {
+    background-color: #000000e5;
+  }
+  .hide-nav-bar i {
+    color: #fff;
+  }    /*--   End Header   --*/
+
+  /*--  Presentation   --*/
+  .presentation {
+    width: 90%;
+ }
+ .pre-top {
+    justify-content: space-evenly;
+    height: 580px;
+    flex-direction: column;
+ }
+ .presentation-text {
+   width: 60%;
+   min-width: 340px;
+ }
+ .presentation-text p {
+    font-size: 32px;
+    text-align: center;
+ }
+ .presentation-img {
+    max-width: 100%;
+ }
+ #pre-img {
+   max-width: 100%;
+   min-width: 270px;
+}
+/*--  End Presentation  --*/
+
+/*--  my-work   --*/
+
+#my-work-section {
+  height: 1250px;
+  text-align: center;
+}
+#my-work-section .container {
+  height: 100%;
+}
+.heading {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.heading h2 {
+  font-size: 30px;
+  font-family: nexa;
+  padding-bottom: 10px;
+}
+.small-line {
+  width: 40px;
+  height: 5px;
+  background-color: #1DC48B;
+  border-radius: 5px;
+  margin: auto;
+}
+
+#work {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column
+}
+.work-item {
+  width: 323px;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 14px;
+  box-shadow: 4px 4px 6px #00000008;
+  transition: .4s;
+  cursor: pointer;
+  margin-bottom: 30px;
+}.work-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 4px 4px 6px #00000013;
+}
+.work-item h3 {
+  text-align: left;
+  padding: 14px 0;
+  color: #1DC48B;
+  font-family: jost;
+  font-weight: 400;
+  font-size: 21px;
+}
+.work-item hr {
+  position: relative;
+  width: 323px;
+  height: 1px;
+  border: none;
+  left: -14.1px;
+  background-color: #D9D9D9;
+}
+.work-item p {
+  text-align: left;
+  padding: 10px 0;
+  font-size: 12px;
+  line-height: 1.6;
+  font-family: jost;
+  font-weight: bold;
+}
+
+/*-   End my-work   -*/
+
+}
+
+@media screen and (max-width: 400px) {
+  .presentation-text p {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 20px;
+    padding-bottom: 7px;
+ }
+
+ .scroll-down .icon {
+  width: 48px;
+  height: 48px;
+  line-height: 3.7;
+}
+.down i {
+  font-size: 26px;
+}
+
+ 
+
+}
+
+
+
+
 
 
 
